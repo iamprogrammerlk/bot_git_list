@@ -10,9 +10,10 @@
 
 <br><br>
 
-# PROJECT_TITLE
+# Bot GIT List
 
-PROJECT_DESCRIPTION
+This bot effectively reveals all the repositories found within the specified directories,
+providing you with a comprehensive overview of your projects.
 
 > [!TIP]
 >

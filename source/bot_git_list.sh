@@ -5,8 +5,8 @@ clear
 # bash debug on
 set -euo pipefail
 
-export APP_NAME="GIT List"
-export APP_SLUG="git_list"
+export APP_NAME="BOT GIT List"
+export APP_SLUG="bot_git_list"
 export APP_VERSION="1.0.0"
 # export APP_ROOT=$(pwd)
 # export APP_ROOT=$(dirname "$0")
@@ -16,9 +16,9 @@ export APP_ROOT=$(dirname "$(realpath "$0")")
 export APP_HOME=$HOME/.config/$APP_SLUG
 
 declare -A app_configuration=(
-  ["app_url"]="https://github.com/iamprogrammerlk/autobot"
+  ["app_url"]="https://github.com/iamprogrammerlk/bot_git_list"
   ["app_license"]="MIT license"
-  ["app_license_url"]="https://github.com/iamprogrammerlk/autobot?tab=MIT-1-ov-file"
+  ["app_license_url"]="https://github.com/iamprogrammerlk/bot_git_list?tab=MIT-1-ov-file"
   ["app_author"]="I am Programmer"
   ["app_author_url"]="https://iamprogrammer.lk"
 )
